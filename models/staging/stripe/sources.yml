@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: stripe
+    database: test
+    schema: dbt_raj_test
+    tables:
+      - name: payment
